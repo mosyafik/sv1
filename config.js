@@ -32,9 +32,9 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 global.sig = 'https://instagram.com/mo.sy._'
 global.sgh = '-' //github
-global.sgc = 'https://chat.whatsapp.com/K6femuL8bLx6HqWS7wXofI' //group whatsapp
+global.sgc = '-' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/channel/UC6GPl9xMWL61NAXQb3HBrRw' // my youtube channel
+global.snh = '-' // my youtube channel
 
 /*============== PAYMENT ==============*/
 global.pdana = '089699005480' //dana
@@ -119,11 +119,11 @@ global.author = '                「 BotShin  あ」'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/XZrK6yQ/transformers.jpg' //Main Thumbnail
-global.imagebot = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumb = 'https://i.ibb.co/wd4tzcQ/Picsart-22-09-29-01-20-14-442.jpg' //Main Thumbnail
+global.imagebot = 'https://i.ibb.co/wd4tzcQ/Picsart-22-09-29-01-20-14-442.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
-global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumbs = ['https://i.ibb.co/wd4tzcQ/Picsart-22-09-29-01-20-14-442.jpg']
+global.fla = 'https://i.ibb.co/wd4tzcQ/Picsart-22-09-29-01-20-14-442.jpg'
 global.flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
@@ -159,7 +159,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/5bc4d38632b6eb3c5041a.jpg'
+global.thumbdoc = 'https://telegra.ph/file/6a983060bad096a3d9f4e.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
