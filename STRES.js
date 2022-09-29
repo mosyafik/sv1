@@ -7,6 +7,7 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['stres']
 handler.tags = ['other']
+handler.customPrefix = /(\?$)/
 handler.command = /^(stres)$/i
 handler.limit = true
 
