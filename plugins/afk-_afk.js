@@ -4,7 +4,7 @@ export function before(m) {
         conn.sendButtonDoc(m.chat,`
   Kamu berhenti AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
   Selama ${(new Date - user.afk).toTimeString()}
-  `,wm,'Hai Kak','Ya',m,fakeig)
+  `,wm,'Welkombek Cuy','Ya',m,fakeig)
         user.afk = -1
         user.afkReason = ''
     }
