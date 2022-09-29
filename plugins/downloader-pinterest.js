@@ -15,7 +15,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 handler.help = handler.alias = ['pinterest/pin']
 handler.tags = ['downloader']
-handler.command = /^(pin)$/i 
+handler.command = /^(pinterest|pin|\p)$/i 
 
 export default handler
 
