@@ -119,11 +119,11 @@ global.author = '                「 BotShin  あ」'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/6a983060bad096a3d9f4e.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/6a983060bad096a3d9f4e.jpg'
-global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://telegra.ph/file/6a983060bad096a3d9f4e.jpg']
-global.fla = 'https://telegra.ph/file/6a983060bad096a3d9f4e.jpg'
+global.thumb = 'https://telegra.ph/file/a085436b55a8e4b5a46c9.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/a085436b55a8e4b5a46c9.jpg'
+global.giflogo = 'https://telegra.ph/file/a085436b55a8e4b5a46c9.jpg'
+global.thumbs = ['https://telegra.ph/file/a085436b55a8e4b5a46c9.jpg']
+global.fla = 'https://telegra.ph/file/a085436b55a8e4b5a46c9.jpg'
 global.flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
@@ -150,7 +150,7 @@ global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://t
 
 /*============== TEXT ==============*/
 global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
-global.eror = '```404 error```'
+global.eror = '```404 Not Found```'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -159,7 +159,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/5bc4d38632b6eb3c5041a.jpg'
+global.thumbdoc = 'https://telegra.ph/file/a085436b55a8e4b5a46c9.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -190,7 +190,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'BotShin'
-global.stickauth = `By Mos`
+global.stickauth = `+6289699005480`
 
 global.multiplier = 38 // The higher, The harder levelup
 
