@@ -76,7 +76,7 @@
       "roboxp": 0
     },
     "628981574999@s.whatsapp.net": {
-      "exp": 192621,
+      "exp": 193044,
       "limit": 96,
       "lastclaim": 1664387629096,
       "registered": true,
@@ -91,18 +91,18 @@
       "level": 26,
       "role": "Beginner",
       "autolevelup": true,
-      "money": 17491,
+      "money": 17658,
       "bank": 0,
       "atm": 0,
       "fullatm": 0,
-      "health": 97,
+      "health": 61,
       "potion": 35,
-      "trash": 0,
+      "trash": 2,
       "wood": 23,
-      "rock": 2,
-      "string": 2,
+      "rock": 3,
+      "string": 3,
       "emerald": 0,
-      "diamond": 2,
+      "diamond": 3,
       "gold": 0,
       "iron": 6,
       "upgrader": 0,
@@ -132,7 +132,7 @@
       "pickaxedurability": 0,
       "fishingrod": 0,
       "fishingroddurability": 0,
-      "lastadventure": 1664432352336,
+      "lastadventure": 1664562737113,
       "lastfishing": 0,
       "lastdungeon": 0,
       "lastduel": 0,
@@ -4701,10 +4701,10 @@
   },
   "stats": {
     "menu.js": {
-      "total": 158,
-      "success": 158,
-      "last": 1664479347390,
-      "lastSuccess": 1664479347390
+      "total": 162,
+      "success": 162,
+      "last": 1664563016628,
+      "lastSuccess": 1664563016628
     },
     "_autoreact.js": {
       "total": 120,
@@ -4749,10 +4749,10 @@
       "lastSuccess": 1664206263335
     },
     "speed.js": {
-      "total": 39,
-      "success": 39,
-      "last": 1664477990872,
-      "lastSuccess": 1664477990872
+      "total": 40,
+      "success": 40,
+      "last": 1664563140231,
+      "lastSuccess": 1664563140231
     },
     "anime-random.js": {
       "total": 3,
@@ -4857,10 +4857,10 @@
       "lastSuccess": 1664235565588
     },
     "rpg-inventory.js": {
-      "total": 17,
-      "success": 17,
-      "last": 1664452280221,
-      "lastSuccess": 1664452280221
+      "total": 18,
+      "success": 18,
+      "last": 1664562717119,
+      "lastSuccess": 1664562717119
     },
     "rpg-daily.js": {
       "total": 7,
@@ -4881,10 +4881,10 @@
       "lastSuccess": 1664431774869
     },
     "rpg-adventure.js": {
-      "total": 13,
-      "success": 13,
-      "last": 1664444764951,
-      "lastSuccess": 1664444764951
+      "total": 14,
+      "success": 14,
+      "last": 1664562737113,
+      "lastSuccess": 1664562737113
     },
     "rpg-dungeon.js": {
       "total": 5,
@@ -4899,10 +4899,10 @@
       "lastSuccess": 1664432374642
     },
     "xp-profile.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1664432513359,
-      "lastSuccess": 1664432513359
+      "total": 11,
+      "success": 11,
+      "last": 1664562745238,
+      "lastSuccess": 1664562745238
     },
     "bank-cek.js": {
       "total": 3,
@@ -4947,10 +4947,10 @@
       "lastSuccess": 0
     },
     "exp-ceksn.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1664216388105,
-      "lastSuccess": 1664216388105
+      "total": 3,
+      "success": 3,
+      "last": 1664562771877,
+      "lastSuccess": 1664562771877
     },
     "rpg-leaderboard.js": {
       "total": 3,
