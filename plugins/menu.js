@@ -89,105 +89,105 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   '': 'No Category',
 }
   if (teks == 'game') tags = {
-    'game': 'Game'
+    'game': 'GAMES'
   }
   if (teks == 'anime') tags = {
-    'anime': 'Anime'
+    'anime': 'ANIME'
   }
   if (teks == 'nsfw') tags = {
-    'nsfw': 'Nsfw'
+    'nsfw': 'NSFW 18+'
   }
   if (teks == 'rpg') tags = {
-    'rpg': 'Rpg'
+    'rpg': 'RPG'
   }
   if (teks == 'edukasi') tags = {
-    'edukasi': 'Edukasi'
+    'edukasi': 'EDUKASI'
   }
   if (teks == 'news') tags = {
-    'news': 'News'
+    'news': 'NEWS'
   }
   if (teks == 'random') tags = {
-    'random': 'Random'
+    'random': 'RANDOM'
   }
   if (teks == 'xp') tags = {
-    'xp': 'Exp & Limit'
+    'xp': 'EXP & LIMIT'
   }
   if (teks == 'stiker') tags = {
-    'sticker': 'Stiker'
+    'sticker': 'STIKER'
   }
   if (teks == 'kerangajaib') tags = {
-    'kerang': 'Kerang Ajaib'
+    'kerang': 'KERANG AJAIB'
   }
   if (teks == 'quotes') tags = {
-    'quotes': 'Quotes'
+    'quotes': 'QUOTES'
   }
   if (teks == 'berita') tags = {
-    'berita': 'Berita'
+    'berita': 'BERITA'
   }
   if (teks == 'admin') tags = {
     'admin': `Admin ${global.opts['restrict'] ? '' : '(Dinonaktifkan)'}`,
-    'group': 'Grup'
+    'group': 'GRUP'
   }
   if (teks == 'group') tags = {
-    'group': 'Group'
+    'group': 'GROUP'
   }
   if (teks == 'premium') tags = {
-    'premium': 'Premium'
+    'premium': 'PREMIUM'
   }
   if (teks == 'internet') tags = {
-    'internet': 'Internet'
+    'internet': 'BROWSING'
   }
   if (teks == 'anonymous') tags = {
-    'anonymous': 'Anonymous Chat'
+    'anonymous': 'ANONYMOUS CHAT'
   }
   if (teks == 'nulis') tags = {
-    'nulis': 'Nulis',
-    'maker': 'Maker'
+    'nulis': 'NULIS',
+    'maker': 'MAKER'
   }
   if (teks == 'downloader') tags = {
-    'downloader': 'Downloader'
+    'downloader': 'DOWNLOADER'
   }
   if (teks == 'tools') tags = {
-    'tools': 'Tools'
+    'tools': 'TOOLS'
   }
   if (teks == 'fun') tags = {
-    'fun': 'Fun'
+    'fun': 'FUN'
   }
   if (teks == 'database') tags = {
-    'database': 'Database'
+    'database': 'DATABASE'
   }
   if (teks == 'vote') tags = {
-    'vote': 'Voting',
+    'vote': 'VOTING',
   }
   if (teks == 'logo') tags = {
-    'logo': 'Logo Menu',
+    'logo': 'LOGO MENU',
   }
   if (teks == 'absen') tags = {
-    'absen': 'Absen'
+    'absen': 'ABSEN'
   }
   if (teks == 'quran') tags = {
-    'quran': 'Al-Qur\'an',
-    'islamic': 'Islamic'
+    'quran': 'AL-QUR\'AN',
+    'islamic': 'ISLAMIC'
   }
   if (teks == 'audio') tags = {
-    'audio': 'Audio'
+    'audio': 'AUDIO'
   }
   if (teks == 'jadibot') tags = {
-    'jadibot': 'Jadi Bot'
+    'jadibot': 'JADI BOT'
   }
   if (teks == 'info') tags = {
-    'info': 'Info'
+    'info': 'INFO'
   }
   if (teks == 'owner') tags = {
-    'owner': 'Owner',
-    'host': 'Host',
-    'advanced': 'Advanced'
+    'owner': 'OWNER',
+    'host': 'HOST',
+    'advanced': 'ADVANCED'
   }
  if (teks == 'nsfw') tags = {
-    'nsfw': 'Nsfw'
+    'nsfw': 'NSFW'
   }
   if (teks == 'nocategory') tags = {
-    '': 'No Category'
+    '': 'OTHER MENU'
   }
   try {
   	// DEFAULT MENU
@@ -237,23 +237,23 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	title: `${htki} MENU ${htka}`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
+	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic RPG!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
-	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
+	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru loh! >-<"},
+	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur seru untuk keluarga"},
+	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club :v"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
+	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Woi wibu!?"},
 	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
-	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
+	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only Premium Users"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
 	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
 	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
   {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
-	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
+	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Dengerin musik/download sesuatu diBOT"},
 	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
 	{title: `🎨 ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
-	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
+	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Khusus orang malas nulis"},
 	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
   {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
 	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
@@ -270,10 +270,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌–––––––––––––––––✥
-│「 Hai Kak  」
-└┬❖ 「 ${conn.getName(m.sender)} 」
+│「 Hai Kak ${conn.getName(m.sender)} 」
+└┬❖ 「 √ 」
 ┌┤❀  Bagaimana Harimu? 🤗
-┊│❀  Terima Kasih Telah Menggunakan Bot Kami
+┊│❀  Terima Kasih Telah Menggunakan BotShin
 │└────────────┈ ⳹
 ┊   「 *U s e r  I n f o 克* 」
 ┊↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
@@ -587,13 +587,13 @@ function ucapan() {
     res = "Pagi Lord 🌄"
   }
   if (time >= 10) {
-    res = "Selamat Siang Kak ☀️"
+    res = "Selamat Siang ☀️"
   }
   if (time >= 15) {
-    res = "Selamat Sore Kak 🌇"
+    res = "Selamat Sore 🌇"
   }
   if (time >= 18) {
-    res = "Malam Kak 🌙"
+    res = "Malam 🌙"
   }
   return res
 }
