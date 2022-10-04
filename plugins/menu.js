@@ -57,36 +57,36 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
-  'main': 'Main',
-  'game': 'Game',
-  'rpg': 'RPG Games',
-  'xp': 'Exp & Limit',
-  'sticker': 'Sticker',
-  'kerang': 'Kerang Ajaib',
-  'quotes': 'Quotes',
-  'fun': 'Fun',
-  'anime': 'Anime',
-  'admin': 'Admin',
-  'group': 'Group',
-  'vote': 'Voting',
-  'absen': 'Absen',
-  'premium': 'Premium',
-  'anonymous': 'Anonymous Chat',
-  'internet': 'Internet',
-  'downloader': 'Downloader',
-  'tools': 'Tools',
-  'nulis': 'MagerNulis & Logo',
-  'audio': 'Audio',
-  'logo': 'Logo Menu',
-  'maker': 'Maker',
-  'berita': 'Berita',
-  'database': 'Database',
-  'quran': 'Al Qur\'an',
-  'owner': 'Owner',
-  'host': 'Host',
-  'advanced': 'Advanced',
-  'info': 'Info',
-  '': 'No Category',
+  'main': 'MAIN',
+  'game': 'GAME',
+  'rpg': 'RPG GAMES',
+  'xp': 'EXP & LIMIT',
+  'sticker': 'STICKER',
+  'kerang': 'KERANG AJAIB',
+  'quotes': 'QUOTES',
+  'fun': 'FUN',
+  'anime': 'ANIMS',
+  'admin': 'ADMIN',
+  'group': 'GROUP',
+  'vote': 'VOTING',
+  'absen': 'ABSEN',
+  'premium': 'PREMIUM',
+  'anonymous': 'ANONYMOUS CHAT',
+  'internet': 'BROWSING',
+  'downloader': 'DOWNLOADER',
+  'tools': 'TOOLS',
+  'nulis': 'MAGERNULIS',
+  'audio': 'AUDIO',
+  'logo': 'LOGO',
+  'maker': 'MAKER',
+  'berita': 'BERITA',
+  'database': 'DATABASD',
+  'quran': 'AL QUR\'AN',
+  'owner': 'OWNER ONLY',
+  'host': 'HOST',
+  'advanced': 'ADVANCED',
+  'info': 'INFO',
+  '': 'OTHER',
 }
   if (teks == 'game') tags = {
     'game': 'GAMES'
@@ -584,7 +584,7 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
   if (time >= 4) {
-    res = "Pagi Lord 🌄"
+    res = "Selamat Pagi 🌄"
   }
   if (time >= 10) {
     res = "Selamat Siang ☀️"
@@ -593,7 +593,7 @@ function ucapan() {
     res = "Selamat Sore 🌇"
   }
   if (time >= 18) {
-    res = "Malam 🌙"
+    res = "Selamat Malam 🌙"
   }
   return res
 }
