@@ -69,7 +69,7 @@ conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { extern
     mediaUrl: "https://Instagram.com/_ctzhid",
     mediaType: "VIDEO",
     description: "https://Instagram.com/_ctzhid", 
-    title: 'WH-MODS-DEV-MultiDevice',
+    title: 'BotShin by Mos',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
