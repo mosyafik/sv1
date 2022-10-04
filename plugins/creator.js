@@ -25,10 +25,10 @@ ${htjava} *✉️ Nama RL* : Syahrizal
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 18
+${htjava} *🎨 Umur* : YTTA
 ${htjava} *🧮 Kelas* : SUDAH TUWA😎
-${htjava} *🧩 Hobby* : Ngumpulin Bias, ngemod, ngedit"
-${htjava} *💬 Sifat* : Yang Tawu Tawu Aja
+${htjava} *🧩 Hobby* : Ngumpulin Bias, bermusik, ngedit
+${htjava} *💬 Sifat* : Baik hati dan tidak sombong 
 ${htjava} *🗺️ Tinggal* : Surabaya, Jawa Timur
 ${htjava} *❤️ Istri* : Ryujin
 
