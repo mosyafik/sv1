@@ -10,6 +10,6 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 }
 handler.help = ['jodoh', 'rasi', 'cantik', 'ganteng', 'gabut', 'gila', 'lesbi', 'stress', 'bucin', 'jones', 'sadboy'].map(v => 'se' + v + ' siapa?')
 handler.tags = ['kerang', 'fun']
-handler.command = /^(serasi|jodoh|)/i
+handler.command = /^se(rasi|jodoh|)/i
 
 export default handler
