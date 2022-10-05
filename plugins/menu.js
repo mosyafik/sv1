@@ -237,32 +237,32 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	title: `${htki} MENU ${htka}`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic RPG!"},
-	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru loh! >-<"},
-	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur seru untuk keluarga"},
-	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club :v"},
-	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Woi wibu!?"},
-	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
-	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only Premium Users"},
-	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
-	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
+	    {title: `🌱 ${pmenus} RPG`, rowId: ".? rpg", description: "Game Epic RPG!"},
+	{title: `✨ ${pmenus} EXP`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
+	{title: `🎮 ${pmenus} GAMES`, rowId: ".? game", description: "Gamenya seru seru loh! >-<"},
+	{title: `🧩 ${pmenus} FUN`, rowId: ".? fun", description: "Fitur seru untuk keluarga"},
+	{title: `🐚 ${pmenus} KERANG`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club :v"},
+	{title: `📑 ${pmenus} QUOTES`, rowId: ".? quotes", description: "Random Inspirasi"},
+	{title: `⛩️ ${pmenus} ANIME`, rowId: ".? anime", description: "Woi wibu!?"},
+	{title: `🔞 ${pmenus} NSFW (18+)`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
+	{title: `🌟 ${pmenus} PREMIUM ZONE`, rowId: ".? premium", description: "Only Premium Users"},
+	{title: `🎭 ${pmenus} ANON CHAT`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
+	{title: `📖 ${pmenus} AL-QURAN`, rowId: ".? quran", description: "Tobat yuk kak"},
+	{title: `🌎 ${pmenus} BROWSING`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
   {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
-	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Dengerin musik/download sesuatu diBOT"},
-	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-	{title: `🎨 ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
-	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Khusus orang malas nulis"},
-	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-  {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
-	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
-	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
-	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
-	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
-	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
+	{title: `📩 ${pmenus} DOWNLOAD ZONE`, rowId: ".? downloader", description: "Dengerin musik/download sesuatu diBOT"},
+	{title: `🎨 ${pmenus} STIKERS`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
+	{title: `🎨 ${pmenus} LOGO`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
+	{title: `✏️ ${pmenus} NULIS ONLEN`, rowId: ".? nulis", description: "Khusus orang malas nulis"},
+	{title: `🎧 ${pmenus} AUDIO`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
+  {title: `🎧 ${pmenus} SOUND RANDOM`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
+	{title: `🏢 ${pmenus} GROUP`, rowId: ".? group", description: "Only Groups"},
+	{title: `👑 ${pmenus} ADMIN`, rowId: ".? admin", description: "Only Admin Group"},
+	{title: `🗂️ ${pmenus} DATABASE`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
+	{title: `🛠️ ${pmenus} TOOLS`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
+	{title: `ℹ️ ${pmenus} INFO`, rowId: ".? info", description: "Info info BOT"},
+	{title: `👩‍💻 ${pmenus} OWNER ONLY`, rowId: ".? owner", description: "Owner Only!"},
+	{title: `❓ ${pmenus} UNCATEGORIZED`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
 	]
   },
 ]
@@ -270,10 +270,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌–––––––––––––––––✥
-│「 Hai Kak ${conn.getName(m.sender)} 」
+│「 Hai ${conn.getName(m.sender)} 」
 └┬❖ 「 √ 」
 ┌┤❀  Bagaimana Harimu? 🤗
-┊│❀  Terima Kasih Telah Menggunakan BotShin
+┊│❀  Terima Kasih Telah Menggunakan *BotShin*
 │└────────────┈ ⳹
 ┊   「 *U s e r  I n f o 克* 」
 ┊↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
@@ -582,7 +582,7 @@ function clockStringP(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
+  let res = "Sudah Dini Hari Kok Belum Turu Cuy? 🥱"
   if (time >= 4) {
     res = "Selamat Pagi 🌄"
   }
