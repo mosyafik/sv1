@@ -2,13 +2,13 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let text = `
 *KALO KAMU INGIN SERVER BOT BERTAHAN LAMA, KAMU BISA DONASI DI NOMER BAWAH*
 ┌─「 Donasi • Pulsa 」
-│ • *Telkomsel:* [${global.ppulsa}]
+│ • *[${global.ppulsa}]*
 ❏────
 
-┌─「 Donasi • Non Pulsa 」
-│ • *Dana:* [${global.pdana}]
+┌─「 Donasi • e-Wallet 」
+│ • *DANA:* [${global.pdana}]
 │ • *Gopay:* [${global.pgopay}]
-│ • *Ovo:* [${global.povo}]
+│ • *OVO:* [${global.povo}]
 │ • *Link Aja:* [${global.plinkaja}]
 ❏────
 `.trim()
