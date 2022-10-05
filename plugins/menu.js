@@ -547,9 +547,9 @@ const listMessage = {
     throw e
   }
 }
-handler.help = ['menu', 'help', '?']
+handler.help = ['menu', 'help', 'm']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^m(enu|help|\?)$/i
 
 handler.register = false
 handler.exp = 3
