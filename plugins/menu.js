@@ -236,7 +236,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	},{
 	title: `${htki} MENU ${htka}`,
 	rows: [
-	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+	    {title: `💬 ${pmenus} ALL MENU`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `🌱 ${pmenus} RPG`, rowId: ".? rpg", description: "Game Epic RPG!"},
 	{title: `✨ ${pmenus} EXP`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
 	{title: `🎮 ${pmenus} GAMES`, rowId: ".? game", description: "Gamenya seru seru loh! >-<"},
@@ -549,7 +549,7 @@ const listMessage = {
 }
 handler.help = ['menu', 'help', 'm']
 handler.tags = ['main']
-handler.command = /^m(m|enu|help|\?)$/i
+handler.command = /^(menu|help|\?)$/i
 
 handler.register = false
 handler.exp = 3
