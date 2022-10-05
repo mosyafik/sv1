@@ -507,7 +507,7 @@ const listMessage = {
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: `SUBSCRIBE`,
+                        displayText: `*SUBSCRIBE*`,
                         url: 'https://youtube.com/SyahrizalFikri'
                     }
                 },
@@ -519,19 +519,19 @@ const listMessage = {
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Owner',
+                        displayText: '*Owner*',
                         id: '.owner'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Speed',
+                        displayText: '*Speed*',
                         id: '.speed'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi',
+                        displayText: '*Donasi*',
                         id: '.donasi'
                     }
                 },
