@@ -6,12 +6,12 @@ function handler(m, { groupMetadata }) {
     do b = ps.getRandom()
     while (b === a)
     m.reply(`${toM(a)}`, null, {
-        mentions: [a, b]
+        mentions: [a]
     })
 }
 handler.help = ['siapakah']
 handler.tags = ['main', 'fun']
-handler.command = ['siapa','siapakah']
+handler.command = ['siapakah']
 
 handler.group = true
 
