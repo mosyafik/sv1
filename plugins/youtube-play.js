@@ -44,20 +44,20 @@ try {
   const url = 'https://www.youtube.com/watch?v=' + videoId
   let whmodsdev = `*${htki} PLAY ${htka}*
 
- 📌 *Title:* ${title}
+ 📌 *Judul:* ${title}
 🔗 *Url:* ${url}
-🖹 *Description:* ${description}
-⏲️ *Published:* ${publishedTime}
-⌚ *Duration:* ${durationH}
-👁️ *Views:* ${viewH}
+🖹 *Deskripsi:* ${description}
+⏲️ *Diterbitkan:* ${publishedTime}
+⌚ *Durasi:* ${durationH}
+👁️ *Penonton:* ${viewH}
   `
   await conn.sendButton(m.chat, whmodsdev, wm, thumbnail, [
-    ['🎶 Audio', `${usedPrefix}yta ${url} yes`],
-    ['🎥 Video', `${usedPrefix}ytv ${url} yes`],
-    ['🔎 Youtube Search', `${usedPrefix}yts ${text}`]
+    ['🎶 *Audio*', `${usedPrefix}yta ${url} yes`],
+    ['🎥 *Video*', `${usedPrefix}ytv ${url} yes`],
+    ['🔎 *Hasil Pencarian*', `${usedPrefix}yts ${text}`]
 ], m, fakes)
 } catch {
-if (!text) throw 'Input Query'
+if (!text) throw 'Masukkan Kata Kunci'
   let vid = (await youtubeSearch(text)).video[0]
   if (!vid) throw 'Video/Audio Tidak Ditemukan'
   let { title, description, thumbnail, videoId, durationH, durationS, viewH, publishedTime } = vid
