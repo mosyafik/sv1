@@ -46,8 +46,8 @@ ${rpg.emoticon(v)}${v}
 *📑 Page:* ${page} of ${getPage(type)}
 *🎖️ You:* *${userItem.indexOf(m.sender) + 1}* of *${userItem.length}*
 
-${sortedItem.slice(page * 20, page * 20 + 20).map((user, i) => '▣\n' + `│ ${i + 1}〉 ${participants.some(p => areJidsSameUser(user.jid, p.id)) ? `(${conn.getName(user.jid)}) wa.me/` : '@'}${user.jid.split`@`[0]}\n│▸ ${user[type]} ${type}${rpg.emoticon(type)}`).join`\n┗────────────·····\n\n`}
-┗────────────·····
+${sortedItem.slice(page * 20, page * 20 + 20).map((user, i) => '▣\n' + `│ ${i + 1}〉 ${participants.some(p => areJidsSameUser(user.jid, p.id)) ? `(${conn.getName(user.jid)}) wa.me/` : '@'}${user.jid.split`@`[0]}\n│▸ ${user[type]} ${type}${rpg.emoticon(type)}`).join`\n┗\n\n`}
+┗
 `.trim()
   return m.reply(text, null, {
     mentions: [...userItem.slice(page * 20, page * 20 + 20)].filter(v => !participants.some(p => areJidsSameUser(v, p.id)))
