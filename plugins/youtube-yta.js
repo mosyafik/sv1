@@ -34,7 +34,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 
 *L O A D I N G. . .*
 `.trim(), m) // title + '.mp3',
-  if (!isLimit) await conn.sendFile(m.chat, source, title + 'audio/mpeg', `
+  if (!isLimit) await conn.sendFile(m.chat, source, title + '.mpeg', `
 *${htki} YOUTUBE ${htka}*
 
 *${htjava} Title:* ${title}
