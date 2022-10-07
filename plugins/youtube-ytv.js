@@ -39,7 +39,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *${htki} YOUTUBE ${htka}*
 
 *${htjava} Title:* ${title}
-*${htjava} Quality:* 480p
+*${htjava} Quality:* 360p
 *${htjava} Filesize:* ${video.fileSizeH}
 `.trim(), m, false, {
     ..._thumb,
