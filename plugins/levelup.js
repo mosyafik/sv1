@@ -17,7 +17,7 @@ Kurang *${max - user.exp}* lagi! ✨
         let teks = `.             ${user.role}`
         let str = `
 *🎉 C O N G R A T S 🎉*
-*${before}* ➔ *${user.level}* [ *${user.role}* ]`.trim()
+Level *${before}* ➔ Level *${user.level}* [ *${user.role}* ]`.trim()
         try {
             const img = await levelup(teks, user.level)
             conn.sendButton(m.chat, str, botdate, [['INVENTORY', '.inv']], m)
