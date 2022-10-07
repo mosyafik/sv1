@@ -1,5 +1,3 @@
-// ------------------------------------------------------------- scrape bochilteam error -------------------------------------------------
-/*
 import fetch from 'node-fetch'
 import axios from 'axios'
 import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
@@ -39,10 +37,10 @@ handler.tags = ['downloader']
 handler.command = /^(tik(tok)?(tok)?(dl)?)$/i
 
 export default handler
-*/
+
 
 // --------------------------------------------- pakai scrape social_media_downloader --------------------------------------------------------
-
+/*
 import fetch from 'node-fetch'
 import axios from 'axios'
 import { tiktok } from "social_media_downloader"
@@ -78,3 +76,4 @@ handler.tags = ['downloader']
 handler.command = /^(tik(tok)?(tok)?(dl)?)$/i
 
 export default handler
+/*
