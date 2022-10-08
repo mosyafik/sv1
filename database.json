@@ -76,7 +76,7 @@
       "roboxp": 0
     },
     "628981574999@s.whatsapp.net": {
-      "exp": 226024,
+      "exp": 226063,
       "limit": 96,
       "lastclaim": 1665044512681,
       "registered": true,
@@ -302,7 +302,7 @@
       "roboxp": 0
     },
     "6283120202572@s.whatsapp.net": {
-      "exp": 3232,
+      "exp": 3247,
       "limit": 99,
       "lastclaim": 0,
       "registered": true,
@@ -452,7 +452,7 @@
       "roboxp": 0
     },
     "6282141245121@s.whatsapp.net": {
-      "exp": 2802,
+      "exp": 2825,
       "limit": 99,
       "lastclaim": 0,
       "registered": true,
@@ -602,7 +602,7 @@
       "roboxp": 0
     },
     "6285157883553@s.whatsapp.net": {
-      "exp": 76364,
+      "exp": 76404,
       "limit": 95,
       "lastclaim": 1664431770053,
       "registered": true,
@@ -2553,7 +2553,7 @@
       "roboxp": 0
     },
     "6285656936026@s.whatsapp.net": {
-      "exp": 8,
+      "exp": 12,
       "limit": 100,
       "lastclaim": 0,
       "registered": false,
@@ -12438,10 +12438,10 @@
       "lastSuccess": 1665056524014
     },
     "_autoreact2.js": {
-      "total": 578,
-      "success": 578,
-      "last": 1665074770789,
-      "lastSuccess": 1665074770789
+      "total": 579,
+      "success": 579,
+      "last": 1665253382575,
+      "lastSuccess": 1665253382575
     },
     "afk-afk.js": {
       "total": 16,
@@ -12468,10 +12468,10 @@
       "lastSuccess": 1664379100784
     },
     "info-script.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1665072782789,
-      "lastSuccess": 1665072782789
+      "total": 13,
+      "success": 13,
+      "last": 1665255163520,
+      "lastSuccess": 1665255163520
     },
     "group-setname-gc.js": {
       "total": 7,
